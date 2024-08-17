@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+.container_for_accordion {
+    margin: 0 auto;
+    width: 50vw;
+    
+}
+.accordion {
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: aquamarine;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in;
+}
+
+.visible {
+    display: block;
+
+}
+
+.accordion.active {
+    background-color: aqua;
+
+}
