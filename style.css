@@ -1,9 +1,12 @@
 h1 {
     text-align: center;
 }
+p {
+    text-align: justify;
+}
 .container_for_accordion {
     margin: 0 auto;
-    width: 50vw;
+    width: 70vw;
     
 }
 .accordion {
