@@ -17,6 +17,7 @@ h3 {
 p {
     text-align: justify;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 .container_for_accordion {
     margin: 0 auto;
